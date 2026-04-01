@@ -4,6 +4,10 @@ app.get("/health", (req, res) => {
   res.json({ status: "ok", service: "vitalsync", timestamp: new Date() });
 });
 
+app.get("/api/health", (req, res) => {
+  res.json({ status: "ok", timestamp: new Date() });
+});
+
 app.get("/api/activities", (req, res) => {
   res.json([]);
 });
