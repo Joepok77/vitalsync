@@ -1,0 +1,27 @@
+# Dépendances Node.js
+node_modules/
+
+# Fichiers d'environnement (secrets, variables sensibles)
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Répertoires de build
+dist/
+build/
+
+# Fichiers système OS
+.DS_Store
+Thumbs.db
+
+# Couverture de tests
+coverage/
+
+# Editeurs
+.vscode/
+.idea/
